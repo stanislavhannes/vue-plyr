@@ -8,6 +8,7 @@
     "url": "https://gabedunn.dev"
   },
   "scripts": {
+    "prepare": "npm run build",
     "serve": "vue-cli-service serve ./demo/main.js",
     "build": "rollup -c",
     "lint": "vue-cli-service lint"
